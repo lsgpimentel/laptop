@@ -96,32 +96,25 @@ fi
 fancy_echo "Updating Homebrew formulae ..."
 brew update
 brew bundle --file=- <<EOF
-tap "thoughtbot/formulae"
 tap "homebrew/services"
 
 # Unix
 brew "ctags"
 brew "git"
 brew "openssl"
-brew "rcm"
 brew "reattach-to-user-namespace"
 brew "the_silver_searcher"
 brew "tmux"
 brew "vim"
 brew "zsh"
-
-# Heroku
-brew "heroku-toolbelt"
-brew "parity"
-
-# GitHub
-brew "hub"
+cask "atom"
+cask "firefox"
+cask "iterm2"
+cask "github-desktop"
+cask "slack"
 
 # Image manipulation
 brew "imagemagick"
-
-# Testing
-brew "qt"
 
 # Programming languages
 brew "libyaml" # should come after openssl
