@@ -126,6 +126,7 @@ cask "google-hangouts"
 cask "transmission"
 cask "vlc"
 cask "eclipse-jee"
+cask "teamviewer"
 
 # Image manipulation
 brew "imagemagick"
