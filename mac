@@ -127,6 +127,7 @@ cask "transmission"
 cask "vlc"
 cask "eclipse-jee"
 cask "teamviewer"
+cask "istat-menus"
 
 # Image manipulation
 brew "imagemagick"
