@@ -125,6 +125,7 @@ cask "google-drive"
 cask "google-hangouts"
 cask "transmission"
 cask "vlc"
+cask "eclipse-jee"
 
 # Image manipulation
 brew "imagemagick"
