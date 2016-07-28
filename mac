@@ -128,6 +128,8 @@ cask "vlc"
 cask "eclipse-jee"
 cask "teamviewer"
 cask "istat-menus"
+cask "vagrant"
+cask "vagrant-manager"
 
 # Image manipulation
 brew "imagemagick"
