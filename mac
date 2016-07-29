@@ -131,6 +131,7 @@ cask "istat-menus"
 cask "vagrant"
 cask "vagrant-manager"
 cask "the-unarchiver"
+cask "etrecheck"
 
 # Image manipulation
 brew "imagemagick"
