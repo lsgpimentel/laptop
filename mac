@@ -130,6 +130,7 @@ cask "teamviewer"
 cask "istat-menus"
 cask "vagrant"
 cask "vagrant-manager"
+cask "the-unarchiver"
 
 # Image manipulation
 brew "imagemagick"
