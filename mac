@@ -97,6 +97,7 @@ fancy_echo "Updating Homebrew formulae ..."
 brew update
 brew bundle --file=- <<EOF
 tap "homebrew/services"
+tap "d12frosted/emacs-plus"
 
 # Unix
 brew "ctags"
@@ -142,6 +143,8 @@ brew "node"
 brew "rbenv"
 brew "ruby-build"
 
+brew "emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagemagick --with-spacemacs-icon"
+
 # Databases
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
@@ -173,3 +176,7 @@ if [ -f "$HOME/.laptop.local" ]; then
   # shellcheck disable=SC1090
   . "$HOME/.laptop.local"
 fi
+
+fancy_echo "Installing spacemacs"
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+brew linkapps
